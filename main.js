@@ -28,7 +28,7 @@ const endGame = () => {
 
     let Speed = Math.round((wordCount / totalTime) * 60);
 
-    let finalMessage = 'Speed is : '+Speed+'WPM and  Total Time is : '+Math.floor(totalTime)+"MS ";
+    let finalMessage = 'Speed is : '+Speed+'WPM and  Total Time is : '+Math.floor(totalTime)+"MS, ";
     finalMessage += compareWords(msg.innerText, totalStr);
     msg.innerText = finalMessage;
 }
